@@ -1,19 +1,22 @@
 {
-  "name": "node-crf",
-  "version": "0.0.1",
-  "description": "node implementation of crf.",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/liwenzhu/node-crf.git"
-  },
-  "author": "Vince <lee.wenzhu@gmail.com>",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/liwenzhu/node-crf/issues"
-  },
-  "homepage": "https://github.com/liwenzhu/node-crf"
+    "name": "node-crf",
+    "version": "0.0.1",
+    "description": "node implementation of crf.",
+    "main": "index.js",
+    "scripts": {
+	"test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "dependencies": {
+	"sylvester": "*"
+    },
+    "repository": {
+	"type": "git",
+	"url": "https://github.com/liwenzhu/node-crf.git"
+    },
+    "author": "Vince <lee.wenzhu@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+	"url": "https://github.com/liwenzhu/node-crf/issues"
+    },
+    "homepage": "https://github.com/liwenzhu/node-crf"
 }
